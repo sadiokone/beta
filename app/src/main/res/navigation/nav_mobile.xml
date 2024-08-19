@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_mobile"
+    app:startDestination="@id/dashFragment">
+
+    <fragment
+        android:id="@+id/dashFragment"
+        android:name="com.example.beta.DashFragment"
+        android:label="fragment_dash"
+        tools:layout="@layout/fragment_dash" >
+        <action
+            android:id="@+id/action_dashFragment_to_lotFragment"
+            app:destination="@id/lotFragment" />
+        <action
+            android:id="@+id/action_dashFragment_to_affFragment"
+            app:destination="@id/affFragment" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/lotFragment"
+        android:name="com.example.beta.lot.LotFragment"
+        android:label="fragment_lot"
+        tools:layout="@layout/fragment_lot" >
+        <action
+            android:id="@+id/action_lotFragment_to_dashFragment"
+            app:destination="@id/dashFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/affFragment"
+        android:name="com.example.beta.afficher.AffFragment"
+        android:label="fragment_aff"
+        tools:layout="@layout/fragment_aff" />
+
+</navigation>

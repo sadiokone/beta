@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_marginTop="50dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".auth.LoginActivity">
+
+
+    <EditText
+        android:id="@+id/numTel"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:autofillHints="num"
+        android:hint="Numéro de téléphone"
+        android:inputType="phone"
+
+        />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:autofillHints="password"
+        android:hint="Mot de passe"
+        android:inputType="textPassword"
+        android:layout_below="@id/numTel"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Se connecter"
+        android:gravity="center"
+        android:layout_below="@id/password"
+        android:layout_marginTop="16dp" />
+
+
+</RelativeLayout>

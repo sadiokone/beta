@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="Activity_horizontal_marin">0dp</dimen>
+    <dimen name="Activity_vertical_margin">16d</dimen>
+    <!--Dimension pour le dashboard-->
+    <dimen name="dashboard_linear_layout_padding">10dp</dimen>
+    <dimen name="dashboard_linear_layout_padding_left">24dp</dimen>
+    <dimen name="dashboard_linear_layout_margin">16dp</dimen>
+
+    <dimen name="dashboard_item_margin_bottom">16dp</dimen>
+    <dimen name="dashboard_item_margin_left">16dp</dimen>
+    <dimen name="dashboard_texte_view_size">20sp</dimen>
+
+    <dimen name="dashboard_column1_margin_right">10dp</dimen>
+    <dimen name="dashboard_column1_margin_left">12dp</dimen>
+
+    <dimen name="dashboard_column2_margin_right">15dp</dimen>
+    <dimen name="dashboard_column2_margin_left">18dp</dimen>
+    <dimen name="dashboard_cardview_width">138dp</dimen>
+    <dimen name="dashboard_gridlayout_weight">20dp</dimen>
+    <dimen name="dashboard_cardview_margin_left">16dp</dimen>
+    <dimen name="dashboard_cardview_margin_right">16dp</dimen>
+
+
+    <dimen name="dashboard_img">100dp</dimen>
+    <dimen name="dashboard_cardView_margin">1dp</dimen>
+
+
+
+
+</resources>
